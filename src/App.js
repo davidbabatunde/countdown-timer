@@ -1,9 +1,15 @@
 import "./App.css";
+import Footer from "./Footer";
+import Timer from "./Timer";
 
 function App() {
   return (
-    <div>
-      <h2>Testing shit out</h2>
+    <div className="app">
+      <div className="title">
+        <h2>WE'RE LAUNCHING SOON!</h2>
+      </div>
+      <Timer />
+      <Footer />
     </div>
   );
 }
