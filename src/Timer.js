@@ -70,21 +70,37 @@ const Clock = () => {
 
   return (
     <div>
-      <ol className="timer">
+      <ol id="timer">
         <li>
-          <div className="main">{days}</div>
+          <div className="main">
+            {days}
+            <div className="top"></div>
+            <div className="bottom"></div>
+          </div>
           <p>DAYS</p>
         </li>
         <li>
-          <div className="main">{hours}</div>
+          <div className="main">
+            {hours}
+            <div className="top"></div>
+            <div className="bottom"></div>
+          </div>
           <p>HOURS</p>
         </li>
         <li>
-          <div className="main">{minutes}</div>
+          <div className="main">
+            {minutes}
+            <div className="top"></div>
+            <div className="bottom"></div>
+          </div>
           <p>MINUTES</p>
         </li>
         <li>
-          <div className="main">{seconds}</div>
+          <div className="main">
+            {seconds}
+            <div className="top"></div>
+            <div className="bottom"></div>
+          </div>
           <p>SECONDS</p>
         </li>
       </ol>

@@ -5,10 +5,10 @@ import instagramLogo from "./icon-instagram.svg";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div id="footer">
       <img src={facebookLogo} alt="facebook link" />
-      <img src={pinterestLogo} alt="facebook link" />
-      <img src={instagramLogo} alt="facebook link" />
+      <img src={pinterestLogo} alt="pinterest link" />
+      <img src={instagramLogo} alt="instagram link" />
     </div>
   );
 }
