@@ -65,7 +65,7 @@ const Clock = () => {
   // mount only
 
   useEffect(() => {
-    clearTimer();
+    clearTimer(); // eslint-disable-next-line
   }, []);
 
   return (

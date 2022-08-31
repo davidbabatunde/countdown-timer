@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="app">
       <div id="title">
-        <h2>MY MUM'S BIRTHDAY SOON!</h2>
+        <h2>WE'RE LAUNCHING SOON</h2>
       </div>
       <Timer />
       <Footer />
