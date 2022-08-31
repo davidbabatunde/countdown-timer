@@ -104,6 +104,9 @@
     top: 25%;
   }
   .main {
-    font-size: 4rem;
+    font-size: 6rem;
+  }
+  #footer {
+    bottom: 3rem;
   }
 }
